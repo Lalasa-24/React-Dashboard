@@ -1,0 +1,57 @@
+.orders {
+  background-color: #252538;
+  padding: 0px 10px;
+  border-radius: 10px;
+  overflow: auto;
+  max-height: 235px;
+}
+
+.orders::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.orders h3 {
+  margin-bottom: 10px;
+}
+
+.orders table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders th,
+.orders td {
+  padding: 5px;
+  border-top: 1px solid #3a3a4f;
+  text-align: left;
+}
+
+.orders th {
+  background-color: #3a3a4f;
+}
+
+.orders .delivered {
+  color: #00ff08;
+}
+
+.orders .cancelled {
+  color: #f44336;
+}
+
+.orders .pending {
+  color: #f44336;
+}
+
+.order-status {
+  padding: 6px 12px;
+  background-color: #86ff76b0;
+  margin: 0;
+  border-radius: 15px;
+  width: max-content;
+  text-align: center;
+}
+
+.status-red {
+  background-color: #ff4a3d95;
+}
